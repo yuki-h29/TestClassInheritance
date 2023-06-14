@@ -13,6 +13,7 @@
 		233DB77B2A3A45D000CC743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233DB7792A3A45D000CC743F /* Main.storyboard */; };
 		233DB77D2A3A45D400CC743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233DB77C2A3A45D400CC743F /* Assets.xcassets */; };
 		233DB7802A3A45D400CC743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233DB77E2A3A45D400CC743F /* LaunchScreen.storyboard */; };
+		233DB7882A3A460800CC743F /* Common ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233DB7872A3A460800CC743F /* Common ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		233DB77C2A3A45D400CC743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233DB77F2A3A45D400CC743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233DB7812A3A45D400CC743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233DB7872A3A460800CC743F /* Common ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				233DB7732A3A45D000CC743F /* AppDelegate.swift */,
 				233DB7752A3A45D000CC743F /* SceneDelegate.swift */,
+				233DB7892A3A461300CC743F /* Common */,
 				233DB7772A3A45D000CC743F /* ViewController.swift */,
 				233DB7792A3A45D000CC743F /* Main.storyboard */,
 				233DB77C2A3A45D400CC743F /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				233DB7812A3A45D400CC743F /* Info.plist */,
 			);
 			path = TestClassInheritance;
+			sourceTree = "<group>";
+		};
+		233DB7892A3A461300CC743F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				233DB7872A3A460800CC743F /* Common ViewController.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				233DB7782A3A45D000CC743F /* ViewController.swift in Sources */,
 				233DB7742A3A45D000CC743F /* AppDelegate.swift in Sources */,
+				233DB7882A3A460800CC743F /* Common ViewController.swift in Sources */,
 				233DB7762A3A45D000CC743F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
